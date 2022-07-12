@@ -10,5 +10,4 @@ public class LearningresourcesApiKashishApplication {
 		SpringApplication.run(LearningresourcesApiKashishApplication.class, args);
 		System.out.println("Hello World!");
 	}
-
 }
