@@ -4,6 +4,7 @@ import java.time.LocalDate;
 
 public class LearningResource {
     private Integer learningResourceId;
+    private String learningResourceName;
     private String productName;
     private Double costPrice;
     private Double sellingPrice;
@@ -32,6 +33,10 @@ public class LearningResource {
 
     public void setLearningResourceId(Integer learningResourceId) {
         this.learningResourceId = learningResourceId;
+    }
+
+    public String getLearningResourceName() {
+        return learningResourceName;
     }
 
     public String getProductName() {
